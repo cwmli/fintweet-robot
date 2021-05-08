@@ -131,3 +131,6 @@ dmypy.json
 # logging
 *.log.*
 *.log
+
+# vscode
+.vscode
