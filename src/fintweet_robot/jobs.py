@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.chrome.options import Options
 
-import scrapers
+from . import scrapers
 
 
 class ScrapeJob(ABC):

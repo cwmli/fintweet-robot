@@ -4,8 +4,7 @@ import multiprocessing
 import copy
 from itertools import chain
 
-import jobs
-import utils
+from . import utils, jobs
 
 
 def _logging_process(queue):
