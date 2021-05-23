@@ -46,8 +46,6 @@ if __name__ == "__main__":
 
 ```
 
-The `main.py` script contains an example on running the workers on scheduled times (similar to crontabs) using the `schedule` package
-
 Alternatively, we can simply run the scrape on a single symbol by creating an instance of __ScrapeJob__ in `jobs.py`
 
 ```python
